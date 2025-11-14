@@ -70,7 +70,7 @@ live_simulation() {
 # Touch Multiplier
 apply_touch_multiplier() {
     live_simulation 10
-    dialog --msgbox "Touch Multiplier applied!" 6 50
+    dialog --msgbox "Touch Multiplier applied!" 8 50
 }
 
 # Ping Optimizer
@@ -83,7 +83,7 @@ apply_ping_optimizer() {
 apply_all_tweaks() {
     svc power stayon true 2>/dev/null
     live_simulation 15
-    dialog --msgbox "All Hypersense tweaks applied!" 6 60
+    dialog --msgbox "All Hypersense tweaks applied!" 8 60
 }
 
 # Restore Defaults
